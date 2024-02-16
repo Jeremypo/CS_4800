@@ -1,9 +1,23 @@
 package inheritance;
 
-public class SalariedEmployee {
+public class SalariedEmployee extends Employee{
+	private double weeklySalary;
+	
+	public SalariedEmployee(String firstName, String lastName, String ssn, double weeklySalary) {
+		super(firstName, lastName, ssn);
+		this.weeklySalary = weeklySalary;
+	}
 
-	public SalariedEmployee() {
-		// TODO Auto-generated constructor stub
+	public double getWeeklySalary() {
+		return weeklySalary;
+	}
+
+	public void setWeeklySalary(double weeklySalary) {
+		this.weeklySalary = weeklySalary;
+	}
+	
+	public String toString() {
+		return super.toString() + weeklySalary;
 	}
 
 }
