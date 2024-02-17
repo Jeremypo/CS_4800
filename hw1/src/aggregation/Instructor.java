@@ -3,11 +3,7 @@ package aggregation;
 public class Instructor {
 	private String firstName, lastName, officeNumber;
 	
-	public Instructor(String firstName, String lastName, String officeNumber) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.officeNumber = officeNumber;
-	}
+	public Instructor() {}
 
 	public String getFirstName() {
 		return firstName;

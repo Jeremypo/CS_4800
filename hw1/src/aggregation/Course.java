@@ -5,11 +5,7 @@ public class Course {
 	private Instructor instructor;
 	private Textbook textbook;
 	
-	public Course(String courseName, Instructor instructor, Textbook textbook) {
-		this.courseName = courseName;
-		this.instructor = instructor;
-		this.textbook = textbook;
-	}
+	public Course() {}
 	
 	public String toString() {
 		return courseName + "\n" 

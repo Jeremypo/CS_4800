@@ -3,11 +3,7 @@ package aggregation;
 public class Textbook {
 	private String title, author, publisher;
 	
-	public Textbook(String title, String author, String publisher) {
-		this.title = title;
-		this.author = author;
-		this.publisher = publisher;
-	}
+	public Textbook() {}
 
 	public String getTitle() {
 		return title;
