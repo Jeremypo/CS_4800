@@ -32,9 +32,9 @@ public class driver {
 		staff.add(e3);
 		
 		CommissionEmployee e4 = new CommissionEmployee();
-		e4.setFirstName("Mary");
-		e4.setLastName("Quinn");
-		e4.setSsn("333-33-3333");
+		e4.setFirstName("Nicole");
+		e4.setLastName("Dior");
+		e4.setSsn("444-44-4444");
 		e4.setCommissionRate(.15);
 		e4.setGrossSales(50000);
 		staff.add(e4);
