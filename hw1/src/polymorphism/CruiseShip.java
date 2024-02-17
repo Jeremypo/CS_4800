@@ -3,10 +3,10 @@ package polymorphism;
 public class CruiseShip extends Ship{
 	private int maxPassengers;
 	
-	public CruiseShip(String name, int yearBuilt, int maxPassengers) {
-		super(name, yearBuilt);
-		this.maxPassengers = maxPassengers;
+	public CruiseShip() {
+		super();
 	}
+	
 
 	public int getMaxPassengers() {
 		return maxPassengers;

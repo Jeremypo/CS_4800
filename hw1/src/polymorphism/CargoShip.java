@@ -3,9 +3,8 @@ package polymorphism;
 public class CargoShip extends Ship{
 	private int tonnage;
 	
-	public CargoShip(String name, int yearBuilt, int tonnage) {
-		super(name, yearBuilt);
-		this.tonnage = tonnage;
+	public CargoShip() {
+		super();
 	}
 
 	public int getTonnage() {

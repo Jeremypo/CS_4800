@@ -4,10 +4,7 @@ public class Ship {
 	private String name;
 	private int yearBuilt;
 	
-	public Ship(String name, int yearBuilt) {
-		this.name = name;
-		this.yearBuilt = yearBuilt;
-	}
+	public Ship() {}
 
 	public String getName() {
 		return name;
