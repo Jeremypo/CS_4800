@@ -4,10 +4,8 @@ public class HourlyEmployee extends Employee{
 	private double wage;
 	private double hoursWorked;
 	
-	public HourlyEmployee(String firstName, String lastName, String ssn, double wage, double hoursWorked) {
-		super(firstName, lastName, ssn);
-		this.wage = wage;
-		this.hoursWorked = hoursWorked;
+	public HourlyEmployee() {
+		super();	
 	}
 
 	public double getWage() {
@@ -27,6 +25,6 @@ public class HourlyEmployee extends Employee{
 	}
 
 	public String toString() {
-		return super.toString() + wage + hoursWorked;
+		return super.toString() + wage + " " + hoursWorked;
 	}
 }

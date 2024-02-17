@@ -3,9 +3,8 @@ package inheritance;
 public class BaseEmployee extends Employee{
 	private double baseSalary;
 
-	public BaseEmployee(String firstName, String lastName, String ssn, double baseSalary) {
-		super(firstName, lastName, ssn);
-		this.baseSalary = baseSalary;
+	public BaseEmployee() {
+		super();
 	}
 
 	public double getBaseSalary() {

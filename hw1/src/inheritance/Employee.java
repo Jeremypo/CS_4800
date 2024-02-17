@@ -5,11 +5,7 @@ public class Employee {
 	private String lastName;
 	private String ssn;
 	
-	public Employee(String firstName, String lastName, String ssn) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.ssn = ssn;
-	}
+	public Employee() {}
 	
 	public String getFirstName() {
 		return firstName;
