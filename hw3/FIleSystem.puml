@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Folder "1" *-- "0..*" File
+Folder "1" *-- "0..*" Folder
+
+class File{
+    -fileName: String
+
+    +getFileName(): String
+    +setFileName(fileName: String): void
+}
+
+class Folder{
+    - folderName: String
+    - files: List<File>
+    - folders: List<Folder>
+
+    + getFolderName(): String
+    + getFiles(): List<File>
+    + getFolders(): List<Folder>
+    + setFolderName(folderName: String): void
+    + setFiles(files: List<File>): void
+    + setFolders(folders: List<Folder>): void
+}
+
+@enduml

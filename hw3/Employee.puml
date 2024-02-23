@@ -13,16 +13,16 @@ class Employee{
     +getFirstName(): String
     +getLastName(): String
     +getSsn():  String
-    +setFirstName(): void
-    +setLastName(): void
-    +setSsn(): void
+    +setFirstName(firstName: String): void
+    +setLastName(lastName: String): void
+    +setSsn(ssn: String): void
 }
 
 class BaseEmployee{
     -salary: Double
 
     +getSalary(): Double
-    +setSalary(): void
+    +setSalary(salary: Double): void
 }
 
 class CommissionEmployee{
@@ -31,8 +31,8 @@ class CommissionEmployee{
 
     +getCommissionRate(): Double
     +getGrossSales(): Double
-    +setCommissionRate(): void
-    +setGrossSales(): void
+    +setCommissionRate(commissionRate: Double): void
+    +setGrossSales(grossSales: Double): void
 }
 
 class HourlyEmployee{
@@ -41,15 +41,15 @@ class HourlyEmployee{
 
     +getWage(): Double
     +getHoursWorked(): Double
-    +setWage(): void
-    +setHoursWorked(): void
+    +setWage(wage: Double): void
+    +setHoursWorked(hoursWorked: Double): void
 }
 
 class SalariedEmployee{
     -weeklySalary: Double
 
     +getWeeklySalary(): Double
-    +setWeeklySalary(): void
+    +setWeeklySalary(weeklySalary: Double): void
 }
 
 
