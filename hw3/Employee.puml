@@ -1,34 +1,56 @@
 @startuml
 'https://plantuml.com/class-diagram
+Employee <|-- BaseEmployee
+Employee <|-- CommissionEmployee
+Employee <|-- HourlyEmployee
+Employee <|-- SalariedEmployee
+
 class Employee{
     -firstName: String
     -lastName: String
     -ssn: String
 
-    +getFirstName(): void
-    +
-}
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
-
-List <|-- AbstractList
-Collection <|-- AbstractCollection
-
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
-
-class ArrayList {
-Object[] elementData
-size()
+    +getFirstName(): String
+    +getLastName(): String
+    +getSsn():  String
+    +setFirstName(): void
+    +setLastName(): void
+    +setSsn(): void
 }
 
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
+class BaseEmployee{
+    -salary: Double
+
+    +getSalary(): Double
+    +setSalary(): void
 }
+
+class CommissionEmployee{
+    -commissionRate: Double
+    -grossSales: Double
+
+    +getCommissionRate(): Double
+    +getGrossSales(): Double
+    +setCommissionRate(): void
+    +setGrossSales(): void
+}
+
+class HourlyEmployee{
+    -wage: Double
+    -hoursWorked: Double
+
+    +getWage(): Double
+    +getHoursWorked(): Double
+    +setWage(): void
+    +setHoursWorked(): void
+}
+
+class SalariedEmployee{
+    -weeklySalary: Double
+
+    +getWeeklySalary(): Double
+    +setWeeklySalary(): void
+}
+
 
 @enduml
