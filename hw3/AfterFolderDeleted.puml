@@ -1,27 +1,6 @@
 @startuml
 'https://plantuml.com/object-diagram
 
-object "<u>ship:Ship</u>" as s1{
-    - name: String = "Jeremy"
-    - yearBuilt: int = 2024
-}
-
-object "<u>cruiseShip:CruiseShip</u>" as s2{
-    - name: String = "V"
-    - yearBuilt: int = 2025
-    - maxPassengers: int = 1000
-}
-
-object "<u>cargoShip:CargoShip</u>" as s3{
-    - name: String = "Po"
-    - yearBuilt: int = 2026
-    - tonnage: int = 2000
-}
-
-map ships<<List>>{
-    ship1 *-> s1
-    ship2 *--> s2
-    ship3 *---> s3
-}
+object item
 
 @enduml
