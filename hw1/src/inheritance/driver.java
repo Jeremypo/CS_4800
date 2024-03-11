@@ -1,4 +1,4 @@
-package inheritance;
+package hw1.src.inheritance;
 
 import java.util.List;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package inheritance;
+package hw1.src.inheritance;
 
 public class HourlyEmployee extends Employee{
 	private double wage;

@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+object "<u>cs4800:Course</u>" as c1{
+    - courseName: String = "CS 4800"
+    - instructor: Instructor = nima
+}
+object "<u>cleanCode:Textbook</u>" as t1{
+    - title: String = "Clean Code"
+    - author: String = "Robert Cecil Martin"
+    - publisher: String = "Pearson"
+}
+
+object "<u>nima:Instructor</u>" as i1{
+    - firstName: String = "Nima"
+    - lastName: String = "Davarpanah"
+    - officeNumber: String = "3-2636"
+}
+
+c1 o-- t1: has a
+c1 o-- i1: has a
+
+@enduml

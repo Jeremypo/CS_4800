@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+object "<u>php_demo:Folder</u>" as root{
+    - folderName: String = "php_demo"
+}
+object "<u>Source Files:Folder</u>" as fold1{
+    - folderName: String = "Source Files"
+}
+object "<u>.phalcon:Folder</u>" as fold2{
+    - folderName: String = ".phalcon"
+}
+object "<u>cache:Folder</u>" as fold3{
+    - folderName: String = "cache"
+}
+object "<u>Include Path:Folder</u>" as fold4{
+    - folderName: String = "Include Path"
+}
+object "<u>Remote Files:Folder</u>" as fold5{
+    - folderName: String = "Remote Files"
+}
+
+root *-- fold1
+fold1 *-- fold2
+fold1 *-- fold3
+root *-- fold4
+root *-- fold5
+@enduml
