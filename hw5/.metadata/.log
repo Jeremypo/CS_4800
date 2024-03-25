@@ -1,4 +1,4 @@
-!SESSION 2024-03-10 16:00:33.804 -----------------------------------------------
+!SESSION 2024-03-25 15:24:45.716 -----------------------------------------------
 eclipse.buildId=4.27.0.20230309-1200
 java.version=19.0.2
 java.vendor=Oracle Corporation
@@ -6,15 +6,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-10 16:00:35.571
+!ENTRY ch.qos.logback.classic 1 0 2024-03-25 15:24:47.340
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-10 16:00:43.042
-!MESSAGE Logback config file: G:\GitHub\SchoolWork\CS_4800\hw4\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+!ENTRY ch.qos.logback.classic 1 0 2024-03-25 15:25:01.771
+!MESSAGE Logback config file: G:\GitHub\SchoolWork\CS_4800\hw5\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
 
-!ENTRY org.eclipse.jface 2 0 2024-03-10 16:00:44.364
+!ENTRY org.eclipse.jface 2 0 2024-03-25 15:25:02.963
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-10 16:00:44.364
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-25 15:25:02.963
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -32,7 +32,7 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-10 16:00:44.364
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-25 15:25:02.963
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
@@ -51,16 +51,16 @@ Binding(ALT+SHIFT+R,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2024-03-10 16:00:46.876
+!ENTRY org.eclipse.egit.ui 2 0 2024-03-25 15:25:05.316
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Jerem'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-03-10 16:00:54.864
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-03-25 15:25:12.709
 !MESSAGE Setup tasks were performed during startup updating 5 preferences. See 'G:\eclipse.2023\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
-!SESSION 2024-03-25 15:26:23.035 -----------------------------------------------
+!SESSION 2024-03-25 15:26:07.745 -----------------------------------------------
 eclipse.buildId=4.27.0.20230309-1200
 java.version=19.0.2
 java.vendor=Oracle Corporation
@@ -68,15 +68,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-25 15:26:24.604
+!ENTRY ch.qos.logback.classic 1 0 2024-03-25 15:26:09.380
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-25 15:26:27.330
-!MESSAGE Logback config file: G:\GitHub\SchoolWork\CS_4800\hw4\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+!ENTRY ch.qos.logback.classic 1 0 2024-03-25 15:26:16.595
+!MESSAGE Logback config file: G:\GitHub\SchoolWork\CS_4800\hw5\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
 
-!ENTRY org.eclipse.jface 2 0 2024-03-25 15:26:28.489
+!ENTRY org.eclipse.jface 2 0 2024-03-25 15:26:17.758
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-25 15:26:28.489
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-25 15:26:17.758
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -94,7 +94,7 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-25 15:26:28.489
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-25 15:26:17.758
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
@@ -113,12 +113,9 @@ Binding(ALT+SHIFT+R,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2024-03-25 15:26:30.122
+!ENTRY org.eclipse.egit.ui 2 0 2024-03-25 15:26:19.527
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Jerem'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-03-25 15:26:37.528
-!MESSAGE Setup tasks were performed during startup updating 5 preferences. See 'G:\eclipse.2023\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
